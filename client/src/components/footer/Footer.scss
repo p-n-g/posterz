@@ -1,0 +1,92 @@
+.Footer {
+  background-color: var(--primary-text-color);
+  color: white;
+  padding-block: 20px;
+  margin-top: 80px;
+  .content {
+    display: flex;
+    justify-content: space-between;
+
+    .title {
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .left-footer {
+      .follow {
+        display: flex;
+        font-size: 1.2rem;
+        gap: 40px;
+        .link {
+          height: 32px;
+          width: 32px;
+          padding: 6px;
+          border-radius: 50%;
+        }
+        .link:hover {
+          background-color: rgba($color: white, $alpha: 0.5);
+        }
+      }
+    }
+    .right-footer {
+      .company {
+        li {
+          margin-bottom: 20px;
+        }
+        a:hover {
+          color: var(--accent-color);
+        }
+      }
+    }
+  }
+  .sub-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    .cards-img {
+      width: 400px;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .copyright-info {
+      p {
+        color: white;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .Footer {
+    .content {
+      flex-direction: column;
+      .right-footer {
+        margin-top: 40px;
+      }
+    }
+    .sub-footer {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Footer {
+    .sub-footer {
+      flex-direction: column;
+      gap: 20px;
+
+      .cards-img{
+        width: 250px;
+      }
+    }
+  }
+}
