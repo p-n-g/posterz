@@ -46,11 +46,9 @@ function Categories() {
       <div className="container">
         <div className="header">
           <div className="info">
-            <h2>Lorem ipsum dolor sit amet.</h2>
+            <h2>Posterz is changing vibe and look of your space.</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
-              rerum hic. Distinctio rerum a quisquam. Obcaecati beatae
-              perspiciatis nihil repellat.
+              Below we have listed some category of products available with us. Poster include both textual and/or graphic elements. These are both eye-catching and informative. Posterz is wishing you a happy Shopping.
             </p>
           </div>
           <div className="sort-by">
